@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+    <title>tailwind</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body class="bg-gray-200 font-sans flex flex-col items-center">
+ <header class="bg-indigo-700 w-screen border-b-4 border-pink-500 flex justify-center px-4 py-3">
+     <div class="max-w-4xl w-full">
+        <div class="flex justify-between items-center">
+            <div class="text-xl flex">
+                <div class="text-pink-400 font-bold">
+                    <i class="fa fa-angellist"></i>
+                </div>
+                <div class="text-pink-400 font-bold pl-2">
+                    <h1>Angellist</h1>
+                </div>
+            </div>
+            <div class="text-gray-200 text-xl sm:hidden ">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+        <div class="my-4">
+            <h1 class="text-2xl text-indigo-100">want to learn tailwind CSS?</h1>
+            <p class="text-sm text-indigo-100 ">Tailwind is the fastest growing utility-first CSS framework.Let's learn it step by step</p>
+          <div class="mt-4  relative flex">
+              <div class="" >
+                  <a href="" class=" bg-pink-500 mt-2 px-4 py-2 rounded-full uppercase font-bold text-sm text-indigo-100">enroll now</a>
+              </div>
+              <div class=" absolute right-0 px-5 mt-3">
+                <img src="./image/tail3.png" alt="" class="rounded-full border-4 border-pink-500">
+              </div>
+          </div>
+        
+        </div>
+        
+     </div>
+ </header>
+ <main class="mt-16 w-full flex flex-col items-center">
+   <div class="max-w-4xl mx-4" >
+       <h2 class="text-indigo-700 text-xl font-bold capitalize border-b-2 border-indigo-200 pb-1">how it works</h2>
+    <p class="mt-4 text-sm text-gray-600">Tailwind is designed for rapid development of
+        modern applications. At its core, it is a robust mobile-first design system built
+        with developer experience in mind. After using Tailwind CSS, you will find it
+        difficult to go back to use anything else. Learn all about it in this all-inclusive
+        course.</p>
+
+        <div class="mt-10">
+        <h2 class="text-indigo-700 text-xl font-bold capitalize border-b-2 border-indigo-200 pb-1">advantages</h2>
+        <div class="flex flex-col sm:flex-row sm:-mx-2 mt-4">
+           <div class="bg-white border-b-4 border-pink-500 rounded-lg p-8 mt-3 sm:w-1/3 sm:mx-2 sm:p-3 md:p-8">
+                <div class="flex flex-col items-center">
+                
+                    <div class=" w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                        <i class="fa fa-css3 "></i>
+                    </div>
+                    <div class="mt-4 font-bold capitalize">
+                        no custom CSS
+                    </div>
+                    <div class="mt-2 text-sm text-gray-600 text-center">Tailwind's advanced class extraction will leave your
+                        project free of custom CSS.</div>
+                
+                </div>
+           </div>
+           <div class="bg-white border-b-4 border-pink-500 rounded-lg p-8 mt-3 sm:w-1/3 sm:mx-2 sm:p-3 md:p-8">
+                <div class="flex flex-col items-center">
+                
+                    <div class=" w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center">
+                        <i class="fa fa-desktop"></i>
+                    </div>
+                    <div class="mt-4 font-bold capitalize">
+                        developer experience
+                    </div>
+                    <div class="mt-2 text-sm text-gray-600 text-center">Tailwind's advanced class extraction will leave your
+                        project free of custom CSS.</div>
+                
+                </div>
+           </div>
+           <div class="bg-white border-b-4 border-pink-500 rounded-lg p-8 mt-3 sm:w-1/3 sm:mx-2 sm:p-3 md:p-8">
+                <div class="flex flex-col items-center">
+                
+                    <div class=" w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center text-2xl">
+                    <i class="fa fa-mobile"></i>
+                    </div>
+                    <div class="mt-4 font-bold capitalize">
+                        mobile friendly
+                    </div>
+                    <div class="mt-2 text-sm text-gray-600 text-center">Tailwind's advanced class extraction will leave your
+                
+                </div>
+           </div>
+        </div>
+    
+        </div>
+      
+   </div>
+   </div>
+<!-- End of first part of main -->
+
+    <div class="bg-gray-800 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black">
+        <h2 class="pb-1 font-bold text-xl text-gray-400">sign up to download the free PDF</h2>
+        <form class="">
+           <div class="flex flex-col md:flex-row md:-mx-2">
+            
+                <label for="first_name" class="sr-only">First name</label>
+                <input class="border border-gray-600 bg-gray-700 mt-4 rounded-lg py-2 px-4 md:mx-2 block w-full md:w-1/2" 
+                type="text"
+                 placeholder="First name"
+                 id="first_name">
+                <label for="last_name" class="sr-only">Last name</label>
+                <input class="border border-gray-600 bg-gray-700 mt-4 rounded-lg py-2 px-4 md:mx-2 block w-full md:w-1/2" 
+                type="text"
+                 placeholder="Last name"
+                 id="last_name">
+           
+           </div>
+           <div class="flex flex-col md:flex-row md:-mx-2">
+            
+                <label for="email" class="sr-only">Your email</label>
+                <input class="border border-gray-600 bg-gray-700 mt-4 rounded-lg py-2 px-4 md:mx-2 block w-full md:w-1/2" 
+                type="email"
+                 placeholder="johndoe@gmail.com"
+                 id="email">
+                <label for="title" class="sr-only">Title</label>
+                <input class="border border-gray-600 bg-gray-700 mt-4 rounded-lg py-2 px-4 md:mx-2 block w-full md:w-1/2" 
+                type="text"
+                 placeholder="Your title"
+                 id="title">
+           
+           </div>
+           <div class="flex flex-col md:flex-row md:-mx-2">
+               <button class="bg-blue-600 text-sm mt-4 md:mx-2 rounded-lg py-2 block w-full">
+                   Create account
+               </button>
+           </div>
+        </form>
+    </div>
+ </main>
+ <footer class="bg-gray-800 w-full">
+     <div class="pb-6">
+         <p class="text-sm text-gray-600 text-center font-light">Copyright &copy; 2019 Angellist</p>
+     </div>
+ </footer>
+</body>
+</html>
